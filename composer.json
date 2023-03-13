@@ -12,7 +12,11 @@
     "autoload": {
         "psr-4": {
             "App\\" : "app"
-        }
+        },
+        "files": [
+            "app/Helpers/Config.php",
+            "app/Helpers/Helpers.php"
+        ]
     },
     "require": {
         "coffeecode/router": "^2.0",
